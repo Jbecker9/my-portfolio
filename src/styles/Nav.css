@@ -14,7 +14,9 @@ nav > .nav-section {
 }
 
 #nav-initials-section {
-    font-family: "Permanent Marker";
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 200;
+    /* font-family:'Trebuchet MS', sans-serif; */
     justify-content: flex-start;
 }
 
