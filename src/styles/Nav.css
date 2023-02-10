@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+nav > .nav-section {
+    padding: 3rem 2rem;
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid var(--border-color);
+}
+
+#nav-initials-section,
+#nav-projects-section {
+    flex-basis: calc(100% / 3);
+}
+
+#nav-social-section,
+#nav-picture-section {
+    flex-grow: 1;
+}
