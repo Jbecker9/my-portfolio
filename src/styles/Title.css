@@ -1,8 +1,11 @@
 .Title-div {
+    display: grid;
+    height: 100%;
     text-align: center;
     margin: 3rem;
     font-family: 'Source Code Pro', sans-serif;
     color: whitesmoke;
+    border: 1px solid var(--border-color);
 }
 
 .Title-h1 {
