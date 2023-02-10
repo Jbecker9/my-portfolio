@@ -22,8 +22,8 @@ function Nav(){
                     <i className="fa-brands fa-square-github fa-inverse fa-3x"></i>
                 </a>
             </div>
-            <div className="nav-section" id="nav-picture-section">
-                <a> Picture </a>
+            <div className="nav-section" id="nav-contact-section">
+                <a> Contact </a>
             </div>
         </nav>
     )

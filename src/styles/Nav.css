@@ -9,6 +9,17 @@ nav > .nav-section {
     display: flex;
     gap: 1rem;
     border-left: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-initials-section {
+    justify-content: flex-start;
+}
+
+#nav-social-section,
+#nav-projects-section {
+    gap: 3rem;
 }
 
 #nav-initials-section,
@@ -17,6 +28,12 @@ nav > .nav-section {
 }
 
 #nav-social-section,
-#nav-picture-section {
+#nav-contact-section {
     flex-grow: 1;
+}
+
+a{
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
 }

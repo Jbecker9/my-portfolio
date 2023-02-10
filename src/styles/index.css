@@ -1,6 +1,6 @@
 :root{
   --background-color: #153243;
-  --border-color: rgb(233, 237, 255);
+  --border-color: #264b60;
 }
 
 body {
@@ -12,7 +12,9 @@ body {
   overflow: hidden;
 }
 
-
+* {
+  box-sizing: border-box;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
