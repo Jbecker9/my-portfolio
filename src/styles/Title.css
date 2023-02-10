@@ -1,0 +1,10 @@
+.Title-div {
+    text-align: center;
+    margin: 3rem;
+    font-family: 'Source Code Pro', sans-serif;
+    color: whitesmoke;
+}
+
+.Title-h1 {
+    cursor: pointer;
+}

@@ -2,10 +2,12 @@ nav{
     display: flex;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
+    font-family: 'Source Code Pro', sans-serif;
+    color: whitesmoke;
 }
 
 nav > .nav-section {
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
     display: flex;
     gap: 1rem;
     border-left: 1px solid var(--border-color);
@@ -14,10 +16,8 @@ nav > .nav-section {
 }
 
 #nav-initials-section {
-    font-family: 'Source Code Pro', sans-serif;
-    font-weight: 200;
-    /* font-family:'Trebuchet MS', sans-serif; */
     justify-content: flex-start;
+    font-size: 2rem;
 }
 
 #nav-social-section,
@@ -36,7 +36,5 @@ nav > .nav-section {
 }
 
 a{
-    font-family: "Rubik", sans-serif;
     font-weight: 300;
-    color: whitesmoke;
 }
