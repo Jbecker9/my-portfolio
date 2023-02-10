@@ -7,7 +7,7 @@ function Nav(){
     return(
         <nav className="Nav-div">
             <div className="nav-section" id="nav-initials-section">
-                <a>JB</a>
+                <a>Jared Becker</a>
             </div>
             <div className="nav-section" id="nav-projects-section">
                 <a>Home</a>

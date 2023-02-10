@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Name from './components/Name'
 import Nav from './components/Nav'
 import './styles/App.css'
 
@@ -9,7 +8,7 @@ function App() {
   return (
     <div className="App-div">
       <Nav />
-      <Name />
+      
     </div>
   )
 }
