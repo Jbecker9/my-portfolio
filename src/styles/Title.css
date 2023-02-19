@@ -7,7 +7,3 @@
     color: whitesmoke;
     border: 1px solid var(--border-color);
 }
-
-.Title-h1 {
-    cursor: pointer;
-}

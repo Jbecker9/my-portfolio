@@ -6,7 +6,7 @@ function Title(){
 
     return(
         <div className="Title-div">
-            <h1 className="Title-h1"> Full-Stack Software Engineer </h1>
+            <h1> Full-Stack Software Engineer </h1>
             <Languages />
         </div>
     )
