@@ -7,13 +7,22 @@ function Body(){
     const [navNumber, setNavNumber] = useState(0)
 
     function loopBodyContents(event){
-        console.log(event.target.value)
-        // setNavNumber(navNumber + 1)
-        // if (navNumber >= 3){
-        //     setNavNumber(0)
-        // } else if (navNumber <= -1){
-        //     setNavNumber(2)
-        // }
+        switch (event.target.parentNode.id){
+            case "Add":
+                if (navNumber > 1){
+                    setNavNumber(0)
+                } else {
+                    setNavNumber(navNumber + 1)
+                }
+            break;
+            case "Minus":
+                if (navNumber < 1){
+                    setNavNumber(2)
+                } else {
+                    setNavNumber(navNumber - 1)
+                }
+            break;
+        }
     }
 
     return(
