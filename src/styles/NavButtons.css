@@ -28,3 +28,15 @@
     cursor: pointer;
     transition: 0.25s;
 }
+
+.Arrow-Left-Button:hover{
+    background-color: #264b60;
+    text-align: left;
+    transform: .5s;
+}
+
+.Arrow-Right-Button:hover{
+    background-color: #264b60;
+    text-align: right;
+    transform: .5s;
+}

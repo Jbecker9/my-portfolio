@@ -8,7 +8,7 @@ function Body(){
 
     function loopBodyContents(event){
         console.log(navNumber)
-        switch (event.target.parentNode.id){
+        switch (event.target.id){
             case "Add":
                 if (navNumber > 0){
                     setNavNumber(0)
