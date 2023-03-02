@@ -6,25 +6,25 @@ function Languages(){
     return(
         <div className="Languages-div">
            <div className="Languages-content">
-                <p> Import </p> <p className="Languages-name"> React </p> <p> from "../skills"; </p>
+               <p className="Languages-name"> React.js </p>
            </div>
            <div className="Languages-content">
-                <div> <p className="Languages-name"> ruby_on_rails </p> <p>{ ' = Skills.create!() ' }</p> </div>
+               <p className="Languages-name"> Ruby on Rails </p>
            </div>
            <div>
-                <p className="Languages-name"> CSS </p> <p> {' { height: max; } '} </p>
+                <p className="Languages-name"> CSS </p>
            </div>
            <div className="Languages-content">
-                <p> { ' let skills = [ ...skills,' } </p> <p className="Languages-name"> Javascript </p> <p> { ' ] ' } </p>
+                <p className="Languages-name"> Javascript </p>
            </div>
            <div className="Languages-content">
-                <p> { ' @@skills = [ *skills, ' } </p> <p className="Languages-name"> Ruby </p> <p> { ' ] ' } </p>
+                <p className="Languages-name"> Ruby </p>
            </div>
            <div className="Languages-content">
-                <p> INSERT INTO skills VALUES </p> <p> { ' ( ' } </p> <p className="Languages-name"> SQL, </p> <p className="Languages-name"> postgreSQL </p> <p> { ' ) ' } </p>
+                <p className="Languages-name"> SQL and postgreSQL </p>
            </div>
            <div className="Languages-content">
-                <p> { ' < !SKILLTYPE ' } </p> <p className="Languages-name"> HTML </p> <p> { ' > ' } </p>
+               <p className="Languages-name"> HTML </p>
            </div>
         </div>
     )

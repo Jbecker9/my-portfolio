@@ -1,0 +1,19 @@
+.Projects-Div{
+    display: inline-grid;
+}
+
+.Projects-Memoroutes-Img{
+    width: 100%;
+}
+
+.Projects-Memoroutes-Div{
+    color: white;
+    margin: 5px;
+    padding-bottom: 10px;
+    border: 1px solid var(--border-color);
+    width: 25%;
+}
+
+.Projects-Memoroutes-Title{
+    text-align: center;
+}

@@ -2,7 +2,6 @@ nav{
     display: flex;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
-    font-family: 'Source Code Pro', sans-serif;
     color: whitesmoke;
 }
 

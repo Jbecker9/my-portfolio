@@ -1,6 +1,5 @@
 .NavButtons-div{
     border: 1px solid var(--border-color);
-    /* display: inline-flex; */
     color: whitesmoke;
     position: absolute;
     width: 100%;
@@ -32,11 +31,11 @@
 .Arrow-Left-Button:hover{
     background-color: #264b60;
     text-align: left;
-    transform: .5s;
+    transform: .75s;
 }
 
 .Arrow-Right-Button:hover{
     background-color: #264b60;
     text-align: right;
-    transform: .5s;
+    transition: .75s;
 }
