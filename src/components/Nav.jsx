@@ -15,7 +15,7 @@ function Nav(){
                 <a>Resume</a>
             </div>
             <div className="nav-section" id="nav-social-section">
-                <a href="https://www.linkedin.com/in/jared-becker-ba4a7b1a9/">
+                <a href="https://www.linkedin.com/in/jaredbeckerse/">
                     <i className="fa-brands fa-linkedin fa-inverse fa-3x"></i>
                 </a>
                 <a href="https://github.com/Jbecker9">
