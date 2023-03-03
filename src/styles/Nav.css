@@ -6,7 +6,7 @@ nav{
 }
 
 nav > .nav-section {
-    padding: 1rem 1rem;
+    padding: 5px 10px;
     display: flex;
     gap: 1rem;
     border-left: 1px solid var(--border-color);
