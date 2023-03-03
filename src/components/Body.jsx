@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import NavButtons from "./Body/NavButtons";
-import BodyContents from "../components/Body/BodyContents/BodyContent"
+import BodyContents from "./Body/BodyContents/BodyContents"
 import "../styles/App.css"
+import { NavigationContext } from "./Context/Navigation";
 
 function Body(){
-    const [navNumber, setNavNumber] = useState(0)
+    const { navNumber, setNavNumber } = useContext(NavigationContext)
 
     function loopBodyContents(event){
-        console.log(navNumber)
         switch (event.target.id){
             case "Add":
                 if (navNumber > 1){
@@ -28,8 +28,8 @@ function Body(){
 
     return(
         <div className="Body-bodyDiv">
-            <BodyContents navNumber={navNumber} />
-            <NavButtons setNavNumber={setNavNumber} loopBodyContents={loopBodyContents} />
+            <BodyContents />
+            <NavButtons loopBodyContents={loopBodyContents} />
         </div>
     )
 }
