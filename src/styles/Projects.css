@@ -1,15 +1,16 @@
-.Projects-Div{
-    display: inline-grid;
+.Projects-Container{
+    display: grid;
+    gap: 25px;
 }
 
-.Projects-Memoroutes-Img{
+.Projects-Img{
     width: 100%;
     vertical-align: bottom;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-.Projects-Memoroutes-Div{
+.Projects-Div{
     color: white;
     margin: 10px;
     border: 2px solid var(--border-color);
@@ -17,24 +18,7 @@
     width: 25%;
 }
 
-.Projects-Memoroutes-Title{
-    color: white;
-    text-align: center;
-    display: inline;
-    padding-left: 5px;
-    cursor: pointer;
-}
-
-.Projects-Memoroutes-Title:hover{
-    text-decoration: underline;
-}
-
-.Projects-Memoroutes-Title:visited{
-    color: white;
-    text-decoration: none;
-}
-
-#Projects-Memoroutes-Github-Link{
+#Projects-Github-Link{
     padding: 3px;
     padding-right: 3px;
     display: inline;
