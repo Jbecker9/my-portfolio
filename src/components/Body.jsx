@@ -10,7 +10,7 @@ function Body(){
         console.log(navNumber)
         switch (event.target.id){
             case "Add":
-                if (navNumber > 0){
+                if (navNumber > 1){
                     setNavNumber(0)
                 } else {
                     setNavNumber(navNumber + 1)
@@ -18,7 +18,7 @@ function Body(){
             break;
             case "Minus":
                 if (navNumber < 1){
-                    setNavNumber(1)
+                    setNavNumber(2)
                 } else {
                     setNavNumber(navNumber - 1)
                 }
