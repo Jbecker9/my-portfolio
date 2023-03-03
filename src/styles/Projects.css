@@ -18,6 +18,7 @@
 }
 
 .Projects-Memoroutes-Title{
+    color: white;
     text-align: center;
     display: inline;
     padding-left: 5px;
@@ -29,7 +30,8 @@
 }
 
 .Projects-Memoroutes-Title:visited{
-    color: none;
+    color: white;
+    text-decoration: none;
 }
 
 #Projects-Memoroutes-Github-Link{
