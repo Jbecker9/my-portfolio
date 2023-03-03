@@ -3,17 +3,28 @@
 }
 
 .Projects-Memoroutes-Img{
+    position: absolute;
     width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .Projects-Memoroutes-Div{
+    position: relative;
     color: white;
     margin: 5px;
-    padding-bottom: 10px;
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
     width: 25%;
 }
 
 .Projects-Memoroutes-Title{
     text-align: center;
+}
+
+#Projects-Memoroutes-Github-Link{
+    padding: 10px;
+    display: inline;
+    float: right;
+    cursor: pointer;
 }
