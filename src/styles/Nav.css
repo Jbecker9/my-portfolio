@@ -37,3 +37,7 @@ nav > .nav-section {
 a{
     font-weight: 300;
 }
+
+.nav-section-contact-button{
+    cursor: not-allowed;
+}

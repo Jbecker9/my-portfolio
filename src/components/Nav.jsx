@@ -23,7 +23,7 @@ function Nav(){
                 </a>
             </div>
             <div className="nav-section" id="nav-contact-section">
-                <a> Contact </a>
+                <a className="nav-section-contact-button"> Contact </a>
             </div>
         </nav>
     )
