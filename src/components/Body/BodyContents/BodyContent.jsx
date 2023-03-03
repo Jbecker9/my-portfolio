@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../Title";
-import Projects from "./Projects";
+import Projects from "./Projects/Projects";
 
 function BodyContents({ navNumber }){
     console.log(navNumber)

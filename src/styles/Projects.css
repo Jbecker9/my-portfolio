@@ -28,6 +28,10 @@
     text-decoration: underline;
 }
 
+.Projects-Memoroutes-Title:visited{
+    color: none;
+}
+
 #Projects-Memoroutes-Github-Link{
     padding: 3px;
     padding-right: 3px;
