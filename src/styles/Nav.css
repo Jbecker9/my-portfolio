@@ -41,3 +41,16 @@ a{
 .nav-section-contact-button{
     cursor: not-allowed;
 }
+
+.nav-title{
+    cursor: pointer;
+}
+
+.nav-title:hover{
+    text-decoration: underline;
+}
+
+.nav-title:visited{
+    text-decoration: none;
+    color: white;
+}

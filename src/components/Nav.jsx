@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../styles/Nav.css"
+import { NavigationContext } from "./Context/Navigation";
 
 function Nav(){
-
+    const { setNavNumber } = useContext(NavigationContext)
 
     return(
         <nav className="Nav-div">
@@ -10,9 +11,9 @@ function Nav(){
                 <h1>Jared Becker</h1>
             </div>
             <div className="nav-section" id="nav-projects-section">
-                <a>Home</a>
-                <a>Projects</a>
-                <a>Resume</a>
+                <a onClick={()=>setNavNumber(0)} className="nav-title" >Home</a>
+                <a onClick={()=>setNavNumber(1)} className="nav-title" >Projects</a>
+                <a onClick={()=>setNavNumber(2)} className="nav-title" >Resume</a>
             </div>
             <div className="nav-section" id="nav-social-section">
                 <a href="https://www.linkedin.com/in/jaredbecker-se/">
