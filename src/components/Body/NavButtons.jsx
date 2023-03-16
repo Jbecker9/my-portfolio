@@ -12,7 +12,7 @@ function NavButtons({ loopBodyContents }){
                 <i className="fa-solid fa-arrow-right fa-4x" />
             </div>
         </div>
-    )
+    ) 
 }
 
 export default NavButtons
