@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../../styles/Memoroutes.css"
+import "../../../../styles/Projects.css"
 
 function Memoroutes(){
 
